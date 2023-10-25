@@ -23,6 +23,10 @@ const LandingPageWebNavbar = ({ activeLink }) => {
           <Link href="/">
             <a>
               <h5
+                onClick={() =>
+                  (window.location.href =
+                    "https://remote-teams.github.io/remote-teams-landing-page")
+                }
                 className={
                   activeLink === "home"
                     ? "nav-link nav-link--active"
