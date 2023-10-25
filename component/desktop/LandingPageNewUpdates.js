@@ -98,7 +98,7 @@ export default function LandingPageNewUpdates() {
       <LandingPageWebNavbar activeLink="newUpdates" />
       <div className="new-updates-main">
         <img
-          src="/img/desktop/new-updates/confetti.png"
+          src="./img/desktop/new-updates/confetti.png"
           alt="confetti"
           className="new-updates-confetti-img"
         />

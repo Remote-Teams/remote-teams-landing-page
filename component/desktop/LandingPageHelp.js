@@ -4,10 +4,10 @@ import LandingPageHelpFaqs from "./LandingPageHelpFaqs";
 import LandingPageFooter from "./LandingPageFooter";
 import WriteModal from "./modal/WriteModal";
 
-const icon1 = "/img/desktop/help/icon1.png";
-const icon2 = "/img/desktop/help/icon2.svg";
-const icon3 = "/img/desktop/help/icon3.png";
-const que1 = "/img/desktop/help/que1.png";
+const icon1 = "./img/desktop/help/icon1.png";
+const icon2 = "./img/desktop/help/icon2.svg";
+const icon3 = "./img/desktop/help/icon3.png";
+const que1 = "./img/desktop/help/que1.png";
 
 const list = [
   {

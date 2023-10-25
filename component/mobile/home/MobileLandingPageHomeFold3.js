@@ -2,9 +2,9 @@ import React from "react";
 import HomePageVideo from "../HomePageVideo";
 
 //const poly = "/img/mobile/home/poly.png";
-const app = "/img/mobile/home/app.png";
-const gradient = "/img/mobile/home/gradient.png";
-const play = "/img/mobile/home/play.png";
+const app = "./img/mobile/home/app.png";
+const gradient = "./img/mobile/home/gradient.png";
+const play = "./img/mobile/home/play.png";
 
 const MobileLandingPageHomeFold3 = () => {
   return (

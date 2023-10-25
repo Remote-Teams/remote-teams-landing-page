@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import MobileNavbar from "../MobileNavbar";
 import Link from "next/link";
 
-const arrow = "/img/mobile/arrow.png";
+const arrow = "./img/mobile/arrow.png";
 
 const MobileLandingPageContact = () => {
   const [values, setValues] = useState({

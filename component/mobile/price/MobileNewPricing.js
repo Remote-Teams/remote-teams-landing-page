@@ -7,7 +7,7 @@ import ReactFlagsSelect from "react-flags-select";
 import { priceData } from "../../../store/data/priceData";
 import isEmpty from "../../../store/validation/is-empty";
 
-const arrow = "/img/mobile/arrow.png";
+const arrow = "./img/mobile/arrow.png";
 
 export default function MobileNewPricing() {
   const [activeIndex, setActiveIndex] = useState(0);

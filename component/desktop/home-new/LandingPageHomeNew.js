@@ -13,7 +13,7 @@ export default function LandingPageHomeNew() {
       <LandingPageWebNavbar activeLink="home" />
       <div className="dashboard-img-div">
         <img
-          src="/img/desktop/home-new/dashboard.svg"
+          src="./img/desktop/home-new/dashboard.svg"
           alt="dashboard"
           className="dashboard-img"
         />

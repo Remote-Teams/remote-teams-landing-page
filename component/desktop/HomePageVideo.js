@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-const poly = "/img/desktop/home/poster1.png";
+const poly = "./img/desktop/home/poster1.png";
 
 export class HomePageVideo extends Component {
   /*==============================================================

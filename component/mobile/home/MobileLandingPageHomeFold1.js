@@ -1,8 +1,8 @@
 import React from "react";
 import Link from "next/link";
 
-const img1 = "/img/mobile/home/home-fold1.png";
-const arrow = "/img/mobile/home/arrow.png";
+const img1 = "./img/mobile/home/home-fold1.png";
+const arrow = "./img/mobile/home/arrow.png";
 
 const MobileLandingPageHomeFold1 = () => {
   return (

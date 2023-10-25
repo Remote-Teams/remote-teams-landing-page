@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-const poster = "/img/mobile/home/poster.png";
+const poster = "./img/mobile/home/poster.png";
 
 export class HomePageVideo extends Component {
   /*==============================================================

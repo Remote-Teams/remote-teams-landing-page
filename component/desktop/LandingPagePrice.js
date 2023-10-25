@@ -3,11 +3,11 @@ import LandingPageWebNavbar from "./LandingPageWebNavbar";
 import LandingPageFooter from "./LandingPageFooter";
 import WriteModal from "./modal/WriteModal";
 
-const p1 = "/img/desktop/price/p1.png";
-const p2 = "/img/desktop/price/p2.png";
-const p3 = "/img/desktop/price/p3.png";
-const p4 = "/img/desktop/price/p4.png";
-const p5 = "/img/desktop/price/p5.png";
+const p1 = "./img/desktop/price/p1.png";
+const p2 = "./img/desktop/price/p2.png";
+const p3 = "./img/desktop/price/p3.png";
+const p4 = "./img/desktop/price/p4.png";
+const p5 = "./img/desktop/price/p5.png";
 
 const price = [
   {

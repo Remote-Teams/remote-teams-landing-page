@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-const arrow = "/img/desktop/help/arrow.png";
+const arrow = "./img/desktop/help/arrow.png";
 
 const LandingPageHelpFaqs = ({ que, ans, img }) => {
   const [isShowing, setIsShowing] = useState(false);

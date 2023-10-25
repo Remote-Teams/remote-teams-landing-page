@@ -2,8 +2,8 @@ import React, { Component } from "react";
 import { slide as Menu } from "react-burger-menu";
 import Link from "next/link";
 
-const nav = "/img/mobile/nav.png";
-const arrow = "/img/mobile/arrow.png";
+const nav = "./img/mobile/nav.png";
+const arrow = "./img/mobile/arrow.png";
 
 const listMenu = [
   {

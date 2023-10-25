@@ -30,7 +30,7 @@ export default function BlogMainAuthorBlock({
 
 BlogMainAuthorBlock.defaultProps = {
   displayImage: false,
-  authorImg: "/img/desktop/blog/blog-author-dummy-img.png",
+  authorImg: "./img/desktop/blog/blog-author-dummy-img.png",
   authorName: "Author Name",
   blogUpatedAt: new Date(),
 };

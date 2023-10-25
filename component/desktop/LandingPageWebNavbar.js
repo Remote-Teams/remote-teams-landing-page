@@ -1,13 +1,21 @@
 import React from "react";
 import Link from "next/link";
-const logo = "/img/desktop/navbar/logo.png";
+const logo = "./img/desktop/navbar/logo.png";
 
 const LandingPageWebNavbar = ({ activeLink }) => {
   return (
     <div className="row mx-0 flex-nowrap align-items-baseline web-navbar">
       <nav>
         <Link href="/">
-          <img src={logo} alt="web logo" className="desktop-logo" />
+          <img
+            onClick={() =>
+              (window.location.href =
+                "https://remote-teams.github.io/remote-teams-landing-page")
+            }
+            src={logo}
+            alt="web logo"
+            className="desktop-logo"
+          />
         </Link>
       </nav>
       <ul className="web-navbar-page-link-div">

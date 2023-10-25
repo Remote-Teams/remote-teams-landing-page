@@ -8,12 +8,12 @@ export default function MobileLandingPageHomeNewFold3() {
       </h2>
       <p className="home-new-fold3__desc1">
         With Our Proprietary Bots Available On{" "}
-        <img src="/img/desktop/home-new/slack-icon.svg" alt="slack" /> Slack,
+        <img src="./img/desktop/home-new/slack-icon.svg" alt="slack" /> Slack,
         <br />{" "}
-        <img src="/img/desktop/home-new/discord-icon.svg" alt="discord" />{" "}
+        <img src="./img/desktop/home-new/discord-icon.svg" alt="discord" />{" "}
         Discord and{" "}
         <img
-          src="/img/desktop/home-new/remote-teams-icon.svg"
+          src="./img/desktop/home-new/remote-teams-icon.svg"
           alt="remote teams"
         />{" "}
         Remote Teams.
@@ -32,7 +32,7 @@ export default function MobileLandingPageHomeNewFold3() {
           </h3>
         </div>
         <div className="home-new-fold3__img1-block">
-          <img src="/img/mobile/home-new/task-assignment-bot.png" alt="" />
+          <img src="./img/mobile/home-new/task-assignment-bot.png" alt="" />
         </div>
       </section>
 
@@ -40,7 +40,7 @@ export default function MobileLandingPageHomeNewFold3() {
       <section className="home-new-fold3-section1 home-new-fold3-section1--desc">
         <div className="d-flex justify-content-between home-new-fold3__text1Block home-new-fold3__text1Block--borderBottom">
           <div className="home-new-fold3-section__robot-block">
-            <img src="/img/mobile/home-new/robot-head.png" alt="robot" />
+            <img src="./img/mobile/home-new/robot-head.png" alt="robot" />
           </div>
           <div>
             <h3 className="home-new-fold3__text1-count">2</h3>
@@ -68,7 +68,7 @@ export default function MobileLandingPageHomeNewFold3() {
       <section className="home-new-fold3-section1 home-new-fold3-section1--desc">
         <div className="d-flex justify-content-between home-new-fold3__text1Block home-new-fold3__text1Block--borderBottom">
           <div className="home-new-fold3-section__robot-block">
-            <img src="/img/mobile/home-new/robot-head.png" alt="robot" />
+            <img src="./img/mobile/home-new/robot-head.png" alt="robot" />
           </div>
           <div>
             <h3 className="home-new-fold3__text1-count">3</h3>
@@ -96,7 +96,7 @@ export default function MobileLandingPageHomeNewFold3() {
       <section className="home-new-fold3-section1 home-new-fold3-section1--desc">
         <div className="d-flex justify-content-between home-new-fold3__text1Block home-new-fold3__text1Block--borderBottom">
           <div className="home-new-fold3-section__robot-block home-new-fold3-section__robot-block--yellow">
-            <img src="/img/mobile/home-new/robot-head.png" alt="robot" />
+            <img src="./img/mobile/home-new/robot-head.png" alt="robot" />
           </div>
           <div>
             <h3 className="home-new-fold3__text1-count">4</h3>

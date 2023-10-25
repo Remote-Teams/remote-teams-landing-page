@@ -1,10 +1,10 @@
 import React from "react";
 import Link from "next/link";
 
-const logo = "/img/mobile/logo.png";
-const icon1 = "/img/mobile/footer/icon1.png";
-const icon2 = "/img/mobile/footer/icon2.png";
-const icon3 = "/img/mobile/footer/icon3.png";
+const logo = "./img/mobile/logo.png";
+const icon1 = "./img/mobile/footer/icon1.png";
+const icon2 = "./img/mobile/footer/icon2.png";
+const icon3 = "./img/mobile/footer/icon3.png";
 
 const MobileFooter = () => {
   return (
@@ -81,7 +81,7 @@ const MobileFooter = () => {
         </div>
       </div>
       <h6 className="footer-new-copyright-text text-center">
-        Copyrighted all rights reserved 2022
+        Copyrighted all rights reserved 2024
       </h6>
     </footer>
   );

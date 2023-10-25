@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import MobileBurgerMenu from "./MobileBurgerMenu";
 
-const logo = "/img/mobile/mobile-logo.png";
+const logo = "./img/mobile/mobile-logo.png";
 
 const MobileNavbar = () => {
   return (

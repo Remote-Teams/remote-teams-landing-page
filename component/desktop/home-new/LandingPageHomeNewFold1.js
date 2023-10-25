@@ -18,23 +18,23 @@ export default function LandingPageHomeNewFold1() {
         </div>
 
         <div className="home-new-fold1-companies">
-          <img src="/img/desktop/home-new/logo-revolut.svg" alt="revolut" />
-          <img src="/img/desktop/home-new/logo-motorola.svg" alt="motorola" />
-          <img src="/img/desktop/home-new/logo-hp.svg" alt="hp" />
-          <img src="/img/desktop/home-new/logo-fedex.svg" alt="fedex" />
-          <img src="/img/desktop/home-new/logo-canva.svg" alt="canva" />
+          <img src="./img/desktop/home-new/logo-revolut.svg" alt="revolut" />
+          <img src="./img/desktop/home-new/logo-motorola.svg" alt="motorola" />
+          <img src="./img/desktop/home-new/logo-hp.svg" alt="hp" />
+          <img src="./img/desktop/home-new/logo-fedex.svg" alt="fedex" />
+          <img src="./img/desktop/home-new/logo-canva.svg" alt="canva" />
           <img
-            src="/img/desktop/home-new/logo-thought-works.svg"
+            src="./img/desktop/home-new/logo-thought-works.svg"
             alt="thought works"
           />
-          <img src="/img/desktop/home-new/logo-avanade.svg" alt="avanade" />
-          <img src="/img/desktop/home-new/logo-sapient.svg" alt="sapient" />
+          <img src="./img/desktop/home-new/logo-avanade.svg" alt="avanade" />
+          <img src="./img/desktop/home-new/logo-sapient.svg" alt="sapient" />
         </div>
       </div>
 
       <div className="home-new-fold1-card-img">
         <img
-          src="/img/desktop/home-new/fold-1-last-card-img.png"
+          src="./img/desktop/home-new/fold-1-last-card-img.png"
           alt="A Platform where your team can Collaborate, Coordinate, Communicate"
         />
       </div>

@@ -3,12 +3,12 @@ import MobileNavbar from "../MobileNavbar";
 import MobileFooter from "../MobileFooter";
 import Link from "next/link";
 
-const arrow = "/img/mobile/arrow.png";
-const price1 = "/img/mobile/price/price1.png";
-const price2 = "/img/mobile/price/price2.png";
-const price3 = "/img/mobile/price/price3.png";
-const price4 = "/img/mobile/price/price4.png";
-const price5 = "/img/mobile/price/price5.png";
+const arrow = "./img/mobile/arrow.png";
+const price1 = "./img/mobile/price/price1.png";
+const price2 = "./img/mobile/price/price2.png";
+const price3 = "./img/mobile/price/price3.png";
+const price4 = "./img/mobile/price/price4.png";
+const price5 = "./img/mobile/price/price5.png";
 
 const price = [
   {

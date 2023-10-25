@@ -1,10 +1,10 @@
 import React from "react";
 import Link from "next/link";
 
-const logo = "/img/mobile/logo.png";
-const icon1 = "/img/desktop/footer/icon1.png";
-const icon2 = "/img/desktop/footer/icon2.png";
-const icon3 = "/img/desktop/footer/icon3.png";
+const logo = "./img/mobile/logo.png";
+const icon1 = "./img/desktop/footer/icon1.png";
+const icon2 = "./img/desktop/footer/icon2.png";
+const icon3 = "./img/desktop/footer/icon3.png";
 
 const LandingPageFooter = () => {
   return (
@@ -85,7 +85,7 @@ const LandingPageFooter = () => {
           </div>
           <div className="col-12 px-0">
             <h6 className="footer-new-copyright-text">
-              Copyrighted all rights reserved 2022
+              Copyrighted all rights reserved 2024
             </h6>
           </div>
         </div>

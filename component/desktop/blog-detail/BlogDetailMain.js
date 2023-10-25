@@ -25,7 +25,7 @@ export default function BlogDetailMain({
           <Link href="/blog">
             <a className="blog-details-social-media-block__text blog-go-back">
               <img
-                src="/img/desktop/blog-detail/left-arrow.svg"
+                src="./img/desktop/blog-detail/left-arrow.svg"
                 alt="left arrow"
               />
               BACK TO BLOGS

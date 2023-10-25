@@ -8,12 +8,12 @@ export default function LandingPageHomeNewFold3() {
       </h2>
       <p className="home-new-fold3__desc1">
         With Our Proprietary Bots Available On{" "}
-        <img src="/img/desktop/home-new/slack-icon.svg" alt="slack" /> Slack,
+        <img src="./img/desktop/home-new/slack-icon.svg" alt="slack" /> Slack,
         <br />{" "}
-        <img src="/img/desktop/home-new/discord-icon.svg" alt="discord" />{" "}
+        <img src="./img/desktop/home-new/discord-icon.svg" alt="discord" />{" "}
         Discord and{" "}
         <img
-          src="/img/desktop/home-new/remote-teams-icon.svg"
+          src="./img/desktop/home-new/remote-teams-icon.svg"
           alt="remote teams"
         />{" "}
         Remote Teams.
@@ -32,7 +32,10 @@ export default function LandingPageHomeNewFold3() {
           </h3>
         </div>
         <div className="home-new-fold3__img1-block">
-          <img src="/img/desktop/home-new/task-assignment-bot-new.png" alt="" />
+          <img
+            src="./img/desktop/home-new/task-assignment-bot-new.png"
+            alt=""
+          />
         </div>
       </section>
 
@@ -56,7 +59,7 @@ export default function LandingPageHomeNewFold3() {
           bots do that for them
         </p>
         <div className="home-new-fold3__img2-block">
-          <img src="/img/desktop/home-new/task-assistant-bot.png" alt="" />
+          <img src="./img/desktop/home-new/task-assistant-bot.png" alt="" />
         </div>
       </section>
 
@@ -78,7 +81,10 @@ export default function LandingPageHomeNewFold3() {
           </p>
         </div>
         <div className="home-new-fold3__img3-block">
-          <img src="/img/desktop/home-new/reminder-assistance-bot.png" alt="" />
+          <img
+            src="./img/desktop/home-new/reminder-assistance-bot.png"
+            alt=""
+          />
         </div>
       </section>
 
@@ -105,7 +111,10 @@ export default function LandingPageHomeNewFold3() {
           </p>
         </div>
         <div className="home-new-fold3__img4-block">
-          <img src="/img/desktop/home-new/planning-assistance-bot.svg" alt="" />
+          <img
+            src="./img/desktop/home-new/planning-assistance-bot.svg"
+            alt=""
+          />
         </div>
       </section>
     </div>
