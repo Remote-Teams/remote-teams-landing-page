@@ -1,0 +1,67 @@
+.new-updates-confetti-img {
+  width: vw(121px);
+  height: vw(101px);
+  margin-bottom: vw1(17px);
+}
+.new-updates-main {
+  padding: vw(5px) vw(99px) vw(250px) vw(81px);
+}
+.home-new-fold2-title--new-updates {
+  margin: unset;
+  margin-bottom: vw(41px);
+  font-size: vw(54px);
+  line-height: vw(66px);
+}
+.new-updates-main-card-all {
+  margin-top: vw(41px);
+}
+.new-updates-main-card {
+  background: linear-gradient(321.7deg, #2d3135 24.16%, #35393e 72.5%);
+  border-radius: vw(5px);
+  padding: vw1(28px) vw1(35px) vw1(27px) vw1(37px);
+}
+
+.new-updates-main-card__row {
+  position: relative;
+  padding-bottom: vw1(18px);
+  margin-bottom: vw1(20px);
+
+  &::after {
+    content: "";
+    background: linear-gradient(
+      90.01deg,
+      #00e7f0 4.2%,
+      #006df0 52.11%,
+      rgba(0, 128, 255, 0) 100.03%
+    );
+    box-shadow: inset vw(-2px) vw(-2px) vw(4px) rgba(74, 78, 83, 0.5),
+      inset vw(2px) vw(2px) vw(6px) rgba(35, 37, 39, 0.8);
+    border-radius: vw(16px);
+    width: 80%;
+    height: vw(5px);
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+}
+.new-updates-main-card__text1 {
+  font-size: vw(28px);
+  line-height: vw(34px);
+  @include fontProximaNovaBold;
+  color: #ffffff;
+}
+.new-updates-main-card__text2 {
+  font-size: vw(14px);
+  line-height: vw(19px);
+  @include fontNunitoBold;
+  margin-bottom: 0;
+  color: #ffffff;
+}
+.new-updates-main-card__text3 {
+  font-size: vw(18px);
+  line-height: vw(25px);
+  @include fontNunitoRegular;
+  margin-bottom: 0;
+  color: #ffffff;
+}

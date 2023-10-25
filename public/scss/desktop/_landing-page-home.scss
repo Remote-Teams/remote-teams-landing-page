@@ -1,0 +1,320 @@
+// .home-web-div {
+// background-image: url("../../img/desktop/home/bg.png");
+//   background-size: 100%;
+//   background-repeat: no-repeat;
+//   min-height: 100vh;
+//   background-clip: padding-box;
+//   position: relative;
+// }
+// .dashboard-img-div {
+//   position: absolute;
+//   top: 0;
+//   right: 0;
+// }
+// .dashboard-img {
+//   width: vw(1370px);
+//   height: auto;
+// }
+// .home-new-fold1-div {
+//   padding-left: vw(76px);
+//   position: relative;
+//   z-index: 2;
+// }
+// .home-64-extrabold-font {
+//   font-size: vw(64px);
+//   line-height: vw(90.82px);
+//   width: fit-content;
+//   letter-spacing: 0.01em;
+//   background: linear-gradient(90deg, #5ee7df 0%, #b490ca 100%);
+//   background-clip: text;
+//   //-webkit-background-clip: text;
+//   -webkit-text-fill-color: transparent;
+//   @include fontExtraBold;
+// }
+// .home-30-semiBold-font {
+//   padding-top: vw(15px);
+//   font-size: vw(30px);
+//   line-height: vw(36px);
+//   width: fit-content;
+//   background: linear-gradient(90deg, #9890e3 0%, #b1f4cf 100%);
+//   background-clip: text;
+//   //-webkit-background-clip: text;
+//   -webkit-text-fill-color: transparent;
+//   @include fontSemiBold;
+// }
+// .pink-gradient-button--home {
+//   background: linear-gradient(90deg, #5ee7df 0%, #b490ca 100%);
+//   margin-top: vw(55px);
+// }
+// .price-grey-button--home {
+//   width: vw(285px);
+//   margin-top: vw(32px);
+//   font-size: vw(14px);
+//   line-height: vw(17px);
+// }
+// .fold1-img-div {
+//   width: vw(107px);
+//   height: auto;
+// }
+// .pt-99 {
+//   padding-top: vw(99px);
+// }
+// .home-14-semibold-font {
+//   font-size: vw(14px);
+//   line-height: vw(17px);
+//   text-align: center;
+//   padding-top: vw(33px);
+//   color: rgba(255, 255, 255, 0.54);
+// }
+// .mr-153 {
+//   margin-right: vw(153px);
+// }
+/*=================================================================================================
+
+
+                                        FOLD 2
+
+==================================================================================================*/
+// .pt-212 {
+//   padding-top: vw(212px);
+// }
+// .agile-img-div {
+//   width: vw(500px);
+//   //width: vw(367px);
+//   height: auto;
+// }
+// .home-font-36-extrabold {
+//   font-size: vw(36px);
+//   line-height: vw(51.08px);
+//   letter-spacing: 0.01em;
+//   width: fit-content;
+//   background: linear-gradient(90deg, #d4ffec 0%, #57f2cc 48%, #4596fb 100%);
+//   background-clip: text;
+//   //-webkit-background-clip: text;
+//   -webkit-text-fill-color: transparent;
+//   @include fontExtraBold;
+// }
+// .home-font-24-semibold {
+//   font-size: vw(24px);
+//   line-height: vw(29px);
+//   width: fit-content;
+//   background: linear-gradient(90deg, #a6c0fe 0%, #f68084 100%);
+//   background-clip: text;
+//   //-webkit-background-clip: text;
+//   -webkit-text-fill-color: transparent;
+//   @include fontSemiBold;
+// }
+// .home-font-24-semibold--work {
+//   background: linear-gradient(90deg, #2af598 0%, #009efd 100%);
+//   background-clip: text;
+//   //-webkit-background-clip: text;
+//   -webkit-text-fill-color: transparent;
+//   padding-top: vw(30px);
+// }
+// .home-font-36-extrabold--collaborate {
+//   padding-top: vw(137px);
+//   //padding-top: vw(163px);
+//   background: linear-gradient(90deg, #d4ffec 0%, #57f2cc 48%, #4596fb 100%);
+//   background-clip: text;
+//   //-webkit-background-clip: text;
+//   -webkit-text-fill-color: transparent;
+// }
+// .home-font-24-semibold--content {
+//   padding-top: vw(18px);
+//   background: linear-gradient(90deg, #74ebd5 0%, #9face6 100%);
+//   background-clip: text;
+//   //-webkit-background-clip: text;
+//   -webkit-text-fill-color: transparent;
+// }
+// .collaborate-img-div {
+//   //width: vw(1395px);
+//   width: vw(750px);
+//   height: auto;
+//   //margin-top: vw(57px);
+//   margin-top: vw(200px);
+//   margin-bottom: vw(150px);
+// }
+// .home-font-36-extrabold-streamline {
+//   padding-top: vw(60px);
+//   background: linear-gradient(90deg, #a6c0fe 0%, #f68084 100%);
+//   background-clip: text;
+//   //-webkit-background-clip: text;
+//   -webkit-text-fill-color: transparent;
+// }
+// .home-font-24-semibold--streamline-content {
+//   padding-top: vw(64px);
+//   background: linear-gradient(90deg, #df89b5 0%, #bfd9fe 100%);
+//   background-clip: text;
+//   //-webkit-background-clip: text;
+//   -webkit-text-fill-color: transparent;
+// }
+// .streamline-img-div {
+//   //width: vw(1568px);
+//   width: vw(800px);
+//   height: auto;
+//   //height: vw(800px);
+//   padding-top: vw(60px);
+//   margin-top: vw(150px);
+//   margin-bottom: vw(200px);
+// }
+// .pt-66 {
+//   padding-top: vw(66px);
+// }
+// .home-font-36-extrabold--connect {
+//   background: linear-gradient(90deg, #e0c3fc 0%, #8ec5fc 100%);
+//   background-clip: text;
+//   //-webkit-background-clip: text;
+//   -webkit-text-fill-color: transparent;
+//   padding-top: vw(30px);
+// }
+// .home-font-24-semibold--connect {
+//   padding-top: vw(29px);
+//   background: linear-gradient(90deg, #9890e3 0%, #b1f4cf 100%);
+//   background-clip: text;
+//   //-webkit-background-clip: text;
+//   -webkit-text-fill-color: transparent;
+// }
+// .connect-img-div {
+//   padding-top: vw(66px);
+//   //width: vw(1189px);
+//   width: vw(650px);
+//   margin-top: vw(180px);
+//   margin-bottom: vw(200px);
+//   height: auto;
+//   //  height: vw(900px);
+// }
+// .home-font-36-extrabold--track {
+//   background: linear-gradient(90deg, #acb6e5 0%, #86fde8 100%);
+//   background-clip: text;
+//   //-webkit-background-clip: text;
+//   -webkit-text-fill-color: transparent;
+//   width: fit-content;
+// }
+// .home-track-content-div {
+//   padding-top: vw(124px);
+// }
+// .home-track-img {
+//   padding-top: vw(66px);
+//   width: vw(800px);
+//   margin-top: vw(180px);
+//   margin-bottom: vw(200px);
+//   height: auto;
+//   margin-left: vw(160px);
+// }
+/*=================================================================================================
+
+
+                                        FOLD PRICE
+
+==================================================================================================*/
+// .pt-137 {
+//   padding-top: vw(137px);
+// }
+// .pt-86 {
+//   padding-top: vw(86px);
+// }
+// .pt-94 {
+//   padding-top: vw(94px);
+// }
+// .pt-62 {
+//   padding-top: vw(62px);
+// }
+// .price-font-24-extrabold-home {
+//   padding-bottom: vw(13px);
+// }
+// .price-font-14-semibold-home {
+//   padding-bottom: vw(19px);
+// }
+// .web-price-img-block--home {
+//   width: 100%;
+//   height: vw(250px);
+//   display: flex;
+//   justify-content: center;
+//   align-items: flex-end;
+//   padding-bottom: vw(62px);
+// }
+// .mr-150 {
+//   margin-right: vw(100px);
+// }
+// .pt-100 {
+//   padding-top: vw(100px);
+// }
+// .pt-73 {
+//   padding-top: vw(73px);
+// }
+// .pl-34 {
+//   padding-left: vw(34px);
+// }
+// .pl-74 {
+//   padding-left: vw(74px);
+// }
+// .price-font-24-semibold-home {
+//   font-size: vw(24px);
+//   line-height: vw(29px);
+//   width: fit-content;
+//   background: linear-gradient(90deg, #9890e3 0%, #b1f4cf 100%);
+//   background-clip: text;
+//   //-webkit-background-clip: text;
+//   -webkit-text-fill-color: transparent;
+//   @include fontSemiBold;
+// }
+// .home-font-14 {
+//   font-size: vw(14px);
+//   line-height: vw(17px);
+//   color: rgba(255, 255, 255, 0.54);
+//   @include fontSemiBold;
+//   padding-top: vw(20px);
+// }
+// .pt-159 {
+//   padding-top: vw(159px);
+// }
+// .web-video-div--home {
+//   //width: vw(1060px);
+//   //height: vw(543px);
+//   width: vw(950px);
+//   height: vw(540px);
+// }
+// .pb-250 {
+//   padding-bottom: vw(250px);
+// }
+// .home-video-block {
+//   width: 100%;
+//   height: 100%;
+//   padding: vw(10px);
+
+//   video {
+//     width: 100%;
+//     height: 100%;
+//     border-radius: vw(30px);
+
+//     &:focus {
+//       outline: none;
+//     }
+//   }
+// }
+// .home-price1-img {
+//   width: vw(117px);
+//   height: auto;
+// }
+// .home-price2-img {
+//   width: vw(180px);
+//   height: auto;
+// }
+// .home-price3-img {
+//   width: vw(107px);
+//   height: auto;
+// }
+// .home-price4-img {
+//   width: vw(211px);
+//   height: auto;
+// }
+// .home-price5-img-div {
+//   width: vw(89px);
+//   height: auto;
+// }
+// .pt-60 {
+//   padding-top: vw(60px);
+// }
+// .pt-158 {
+//   padding-top: vw(158px);
+// }

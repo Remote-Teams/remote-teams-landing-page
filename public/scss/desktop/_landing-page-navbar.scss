@@ -1,0 +1,90 @@
+.desktop-logo {
+  cursor: pointer;
+  width: vw(94px);
+  height: auto;
+}
+.web-navbar {
+  padding: vw(41px) vw(50px) vw(64px) vw(81px);
+  z-index: 99;
+  position: relative;
+  ul {
+    //    width: 60%;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-bottom: 0 !important;
+  }
+  li {
+    padding-right: vw(80px);
+  }
+  .nav-link {
+    padding: 0;
+  }
+  .web-navbar-page-link-div {
+    padding-left: vw(192px);
+  }
+
+  .nav-link {
+    // cursor: pointer;
+    font-size: vw(21px);
+    line-height: vw(20.07px);
+    color: rgba(229, 229, 229, 0.46);
+    @include fontSemiBold;
+    padding-left: vw(10px);
+    padding-bottom: vw(8px);
+  }
+  .nav-link--active {
+    width: fit-content;
+    color: #e5e5e5;
+    position: relative;
+
+    &::after {
+      position: absolute;
+      content: "";
+      width: vw(32px);
+      height: vw(4.72px);
+      left: 0;
+      bottom: 0;
+      background: linear-gradient(90deg, #9890e3 0%, #b1f4cf 100%);
+      border-radius: vw(22px);
+    }
+  }
+}
+.web-login-button {
+  //width: vw(150px);
+  //height: vw(50px);
+  width: vw(223px);
+  height: vw(65px);
+  margin-left: vw(300px);
+  border-radius: vw(44px);
+  background-origin: border-box;
+  position: relative;
+  box-shadow: vw(-2px) vw(-2px) vw(7px) rgba(74, 78, 83, 0.92),
+    vw(2px) vw(2px) vw(13px) rgba(35, 37, 39, 0.8),
+    vw(8px) vw(8px) vw(35px) rgba(35, 37, 39, 0.9),
+    vw(-6px) vw(-6px) vw(25px) rgba(74, 78, 83, 0.7);
+  border: 2px solid transparent;
+  background-image: linear-gradient(90.64deg, #b391cb 3.39%, #006df0 94.86%);
+  //background: linear-gradient(321.7deg, #2d3135 24.16%, #35393e 72.5%);
+  padding: 0;
+  display: inline-block;
+  text-align: center;
+}
+.web-login-button-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: vw(16px);
+  line-height: vw(17px);
+  color: #e5e5e5;
+  @include fontSemiBold;
+  text-transform: uppercase;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  background: $linear-black-gradiend;
+  border-radius: vw(44px);
+}
+//border: solid 2px transparent;
+//background-image: linear-gradient(101deg, #9890e3, #b1f4cf);
+//box-shadow: vw(1px) 1000px 1px #2d3135 inset;

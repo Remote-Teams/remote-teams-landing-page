@@ -1,0 +1,163 @@
+.customModal {
+  width: vw(1200px) !important;
+  height: auto;
+  border-radius: vw(5px);
+  overflow: hidden !important;
+  padding: vw(60px) 0 vw(123px) 0 !important ;
+  background: $linear-black-gradiend !important;
+  box-shadow: vw(-2px) vw(-2px) vw(4px) rgba(74, 78, 83, 0.5),
+    vw(2px) vw(2px) vw(6px) rgba(35, 37, 39, 0.8),
+    vw(8px) vw(8px) vw(30px) rgba(35, 37, 39, 0.9),
+    vw(-6px) vw(-6px) vw(20px) rgba(74, 78, 83, 0.7) !important;
+}
+.customCloseButton {
+  display: none !important;
+}
+// .customOverlay {
+//   z-index: 9999 !important;
+//   // background-color: #ffe1c5 !important;
+// }
+.closeIconInModal {
+  cursor: pointer;
+
+  &::before,
+  &::after {
+    content: " ";
+    position: absolute !important;
+    top: vw(50px) !important;
+    right: vw(52px) !important;
+    background-color: transparent !important;
+    height: vw(30px) !important;
+    width: vw(30px) !important;
+    z-index: 99 !important;
+    background-image: url("../../img/desktop/cross.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-clip: padding-box;
+  }
+}
+.modal-title {
+  font-size: vw(36px);
+  line-height: vw(51.08px);
+  letter-spacing: 0.001em;
+  background: linear-gradient(90deg, #d4ffec 0%, #57f2cc 48%, #4596fb 100%);
+  background-clip: text;
+  //-webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  @include fontExtraBold;
+}
+.web-contact-input {
+  width: vw(330px);
+  margin-bottom: vw(30px);
+  label {
+    font-size: vw(14px);
+    line-height: vw(17px);
+    color: rgba(229, 229, 229, 1);
+    @include fontBold;
+    text-transform: uppercase;
+  }
+  .web-input {
+    width: 100%;
+    height: vw(50px);
+    position: relative;
+    textarea,
+    input {
+      width: 100%;
+      height: 100%;
+      background: transparent;
+      border: none;
+      padding: vw(15px);
+      padding-top: 0;
+      font-size: vw(11px);
+      line-height: vw(13px);
+      color: #ffffff;
+      @include fontSemiBold;
+    }
+    &::after {
+      position: absolute;
+      content: "";
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      height: vw(5px);
+      background: linear-gradient(
+        90.01deg,
+        #00e7f0 4.2%,
+        #006df0 52.11%,
+        rgba(0, 128, 255, 0) 100.03%
+      );
+      box-shadow: inset vw(-2px) vw(-2px) vw(4px) rgba(74, 78, 83, 0.5),
+        inset vw(2px) vw(2px) vw(6px) rgba(35, 37, 39, 0.8);
+      border-radius: vw(16px);
+    }
+  }
+}
+.web-input-textarea {
+  height: vw(120px) !important;
+  textarea {
+    background: #2d3135;
+    box-shadow: inset vw(-2px) vw(-2px) vw(4px) rgba(74, 78, 83, 0.5),
+      inset vw(2px) vw(2px) vw(6px) rgba(35, 37, 39, 0.8);
+    border-radius: 7px;
+    padding-top: vw(15px) !important;
+    padding-bottom: vw(15px) !important;
+  }
+}
+.web-contact-input--textarea {
+  width: 100%;
+  margin-top: vw(30px);
+}
+.ml-150 {
+  margin-left: vw(150px);
+}
+.pink-gradient-button--contact {
+  width: vw(200px);
+  background: linear-gradient(90deg, #5ee7df 0%, #b490ca 100%);
+}
+.field-text {
+  font-size: vw(14px);
+  line-height: vw(17px);
+  color: rgba(229, 229, 229, 1);
+  @include fontBold;
+  text-transform: uppercase;
+  padding-bottom: vw(20px);
+}
+.react-select-elements {
+  border: none;
+  outline: none;
+  background: transparent;
+  width: 100%;
+  height: vw(50px);
+  font-size: vw(11px);
+  line-height: vw(13px);
+  color: #ffffff;
+  @include fontSemiBold;
+}
+.modal-select {
+  position: relative;
+  &::after {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: vw(5px);
+    background: linear-gradient(
+      90.01deg,
+      #00e7f0 4.2%,
+      #006df0 52.11%,
+      rgba(0, 128, 255, 0) 100.03%
+    );
+    box-shadow: inset vw(-2px) vw(-2px) vw(4px) rgba(74, 78, 83, 0.5),
+      inset vw(2px) vw(2px) vw(6px) rgba(35, 37, 39, 0.8);
+    border-radius: vw(16px);
+  }
+  option {
+    background: #2d3034 !important;
+    font-size: vw(16px);
+    @include fontBold;
+    min-height: vw(50px);
+    padding: vw(20px) vw(10px) !important;
+    margin-top: vw(20px) !important;
+  }
+}

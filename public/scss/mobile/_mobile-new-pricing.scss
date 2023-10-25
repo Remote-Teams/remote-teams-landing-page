@@ -1,0 +1,351 @@
+.pricing-main-div {
+  padding: mvwDivide(30px) mvwDivide(50px) mvwDivide(57px) mvwDivide(81px);
+  //   padding: mvwDivide(100px) mvwDivide(100px) mvwDivide(57px) mvwDivide(100px);
+}
+.web-page-title--price {
+  top: mvwDivide(-35px);
+  left: mvwDivide(50px);
+}
+.home-font-36-extrabold--new-pricing {
+  background: #e0c3fc;
+  background: linear-gradient(90deg, #e0c3fc 0%, #8ec5fc 100%);
+  background-clip: text;
+  //-webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: mvwDivide(36px);
+}
+.new-pricing-font-16-open-sans {
+  font-size: mvwDivide(16px);
+  line-height: mvwDivide(25px);
+  color: #92969d;
+  padding-top: mvwDivide(13px);
+}
+.new-pricing-18-extrabold {
+  font-size: mvwDivide(18px);
+  line-height: mvwDivide(26px);
+  letter-spacing: 0.01em;
+  @include fontExtraBold;
+  background: #4c93fb;
+  background: linear-gradient(90deg, #4c93fb 0%, #e0c3fc 100%);
+  background-clip: text;
+  //-webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: mvwDivide(12px);
+  width: fit-content;
+}
+.pricing-pink-gradient-button {
+  width: mvwDivide(285px);
+  height: mvwDivide(61px);
+  background: linear-gradient(90deg, #a6c0fe 0%, #f68084 100%);
+  box-shadow: mvwDivide(8px) mvwDivide(8px) mvwDivide(30px)
+      rgba(35, 37, 39, 0.9),
+    mvwDivide(-6px) mvwDivide(-6px) mvwDivide(20px) rgba(74, 78, 83, 0.7),
+    inset mvwDivide(-2px) mvwDivide(-2px) mvwDivide(4px) rgba(74, 78, 83, 0.5);
+  border-radius: mvwDivide(70px);
+  font-size: mvwDivide(18px);
+  line-height: mvwDivide(22px);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #ffffff;
+  @include fontBold;
+}
+/*===========================================================
+                            card css
+  ============================================================*/
+.new-pricing-card {
+  // width: mvwDivide(330px);
+  width: mvwDivide(300px);
+  min-height: mvwDivide(525px);
+  background: $linear-black-gradiend;
+  box-shadow: mvwDivide(-2px) mvwDivide(-2px) mvwDivide(4px)
+    rgba(74, 78, 83, 0.5);
+  border-radius: mvwDivide(5px);
+  padding: mvwDivide(33px) mvwDivide(12px) mvwDivide(50px) mvwDivide(16px);
+  position: relative;
+  margin-bottom: mvwDivide(100px);
+
+  &::before {
+    position: absolute;
+    // width: mvwDivide(53px);
+    width: mvwDivide(85px);
+    height: mvwDivide(6px);
+    content: "";
+    top: mvwDivide(-5px);
+    // left: mvwDivide(115px);
+    left: mvwDivide(95px);
+    background: linear-gradient(
+      90.01deg,
+      #00e7f0 4.2%,
+      #006df0 52.11%,
+      rgba(0, 128, 255, 0.9) 100.03%
+    );
+    box-shadow: inset mvwDivide(-2px) mvwDivide(-2px) mvwDivide(4px)
+        rgba(74, 78, 83, 0.5),
+      inset mvwDivide(2px) mvwDivide(2px) mvwDivide(6px) rgba(35, 37, 39, 0.8);
+    border-radius: mvwDivide(16px);
+  }
+}
+.new-pricing-card__name {
+  font-size: mvwDivide(18px);
+  line-height: mvwDivide(22px);
+  @include fontMedium;
+  background: #9890e3;
+  background: linear-gradient(90deg, #9890e3 0%, #b1f4cf 100%);
+  background-clip: text;
+  //-webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: fit-content;
+}
+.new-pricing-card__price {
+  margin-top: mvwDivide(11px);
+  font-size: mvwDivide(11px);
+  line-height: mvwDivide(39px);
+  padding-left: mvwDivide(6px);
+  @include fontMedium;
+  padding-bottom: mvwDivide(10px);
+  color: rgba(229, 229, 229, 0.49);
+
+  span {
+    font-size: mvwDivide(32px);
+    line-height: mvwDivide(39px);
+    @include fontSemiBold;
+    background: #5ee7df;
+    background: linear-gradient(90deg, #5ee7df 0%, #b490ca 100%);
+    background-clip: text;
+    //-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: fit-content;
+    margin-right: mvwDivide(5px);
+  }
+}
+.new-pricing-card__desc {
+  font-size: mvwDivide(14px);
+  line-height: mvwDivide(25px);
+  color: #92969d;
+  padding-top: mvwDivide(17px);
+  @include fontOpenSansRegular;
+}
+.new-pricing-card__list-title {
+  font-size: mvwDivide(14px);
+  line-height: mvwDivide(17px);
+  color: #e5e5e5;
+  padding-top: mvwDivide(21px);
+  @include fontSemiBold;
+  position: relative;
+  margin-top: mvwDivide(24px);
+
+  &::before {
+    position: absolute;
+    width: 90%;
+    height: mvwDivide(6px);
+    content: "";
+    top: 0;
+    left: mvwDivide(10px);
+    background: linear-gradient(
+      90.01deg,
+      #00e7f0 4.2%,
+      #006df0 52.11%,
+      rgba(0, 128, 255, 0) 100.03%
+    );
+    box-shadow: inset mvwDivide(-2px) mvwDivide(-2px) mvwDivide(4px)
+        rgba(74, 78, 83, 0.5),
+      inset mvwDivide(2px) mvwDivide(2px) mvwDivide(6px) rgba(35, 37, 39, 0.8);
+    border-radius: mvwDivide(16px);
+  }
+}
+.new-pricing-card__list {
+  ul {
+    list-style: none;
+  } // padding-left: mvwDivide(10px);
+  padding-top: mvwDivide(28px);
+}
+.new-pricing-card__list-content {
+  font-size: mvwDivide(11px);
+  line-height: mvwDivide(13px);
+  padding-bottom: mvwDivide(22px);
+  color: rgba(229, 229, 229, 0.49);
+  @include fontMedium;
+  i {
+    color: #00e7f0;
+    padding-right: mvwDivide(13px);
+  }
+}
+.new-pricing-card__btn {
+  width: mvwDivide(166px);
+  height: mvwDivide(58px);
+  position: absolute;
+  bottom: mvwDivide(-31px);
+  left: mvwDivide(60px);
+  //   left: mvwDivide(80px);
+  background: #2d3135;
+  box-shadow: inset mvwDivide(-2px) mvwDivide(-2px) mvwDivide(4px)
+      rgba(74, 78, 83, 0.5),
+    inset mvwDivide(2px) mvwDivide(2px) mvwDivide(6px) rgba(35, 37, 39, 0.8);
+  border-radius: mvwDivide(16px);
+  font-size: mvwDivide(14px);
+  line-height: mvwDivide(17px);
+  color: rgba(229, 229, 229, 0.93);
+  @include fontRegular;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.new-pricing-card__btn--enterprise {
+  width: mvwDivide(266px);
+  height: mvwDivide(61px);
+  box-shadow: mvwDivide(8px) mvwDivide(8px) mvwDivide(30px)
+      rgba(35, 37, 39, 0.9),
+    mvwDivide(-6px) mvwDivide(-6px) mvwDivide(20px) rgba(74, 78, 83, 0.7),
+    inset mvwDivide(-2px) mvwDivide(-2px) mvwDivide(4px) rgba(74, 78, 83, 0.5),
+    inset mvwDivide(4px) mvwDivide(4px) mvwDivide(10px) rgba(35, 37, 39, 0.8);
+  border-radius: mvwDivide(15px);
+  // left: mvwDivide(20px);
+  left: mvwDivide(25px);
+}
+.new-pricing-slider-text {
+  font-size: mvwDivide(11px);
+  line-height: mvwDivide(13px);
+  @include fontMedium;
+  color: rgba(229, 229, 229, 0.49);
+  background: transparent;
+  margin-right: mvwDivide(111px);
+}
+.new-pricing-slider-btn {
+  background: #2d3135;
+  box-shadow: inset mvwDivide(-2px) mvwDivide(-2px) mvwDivide(4px)
+      rgba(74, 78, 83, 0.5),
+    inset mvwDivide(2px) mvwDivide(2px) mvwDivide(6px) rgba(35, 37, 39, 0.8);
+  border-radius: mvwDivide(16px);
+  width: mvwDivide(28px);
+  height: mvwDivide(28px);
+  margin-right: mvwDivide(128px);
+}
+
+.new-pricing-slider {
+  position: relative;
+  z-index: 99;
+  display: flex;
+  align-items: center;
+  margin-top: mvwDivide(50px);
+
+  .new-pricing-slider-btn {
+    &:first-child {
+      // background: transparent;
+      box-shadow: 0 0 0;
+    }
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+  &::before {
+    position: absolute;
+    background: $linear-black-gradiend;
+    box-shadow: mvwDivide(-2px) mvwDivide(-2px) mvwDivide(4px)
+        rgba(74, 78, 83, 0.5),
+      mvwDivide(2px) mvwDivide(2px) mvwDivide(6px) rgba(35, 37, 39, 0.8),
+      mvwDivide(8px) mvwDivide(8px) mvwDivide(30px) rgba(35, 37, 39, 0.9);
+    border-radius: mvwDivide(8px);
+    content: "";
+    height: mvwDivide(5px);
+    width: 95%;
+    left: mvwDivide(2px);
+    // top: mvwDivide(13px);
+    top: 40%;
+    z-index: -1;
+  }
+}
+.new-pricing-slider--200users,
+.new-pricing-slider--100users,
+.new-pricing-slider--10users {
+  &::after {
+    position: absolute;
+    @include gradientBlueBg;
+    border-radius: mvwDivide(16px);
+    width: 35%;
+    content: "";
+    height: mvwDivide(10px);
+    left: mvwDivide(2px);
+    // top: mvwDivide(10px);
+    top: 32%;
+    z-index: -1;
+  }
+}
+.new-pricing-slider--100users {
+  &::after {
+    width: 65%;
+  }
+}
+.new-pricing-slider--200users {
+  &::after {
+    width: 95%;
+  }
+}
+.new-pricing-slider-btn--active {
+  // background: linear-gradient(
+  //   90.01deg,
+  //   #00e7f0 4.2%,
+  //   #006df0 52.11%,
+  //   rgba(0, 128, 255, 0.9) 100.03%
+  // ) !important;
+  // width: mvwDivide(35px);
+  // height: mvwDivide(30px);  '
+  padding: 0;
+  border: double mvwDivide(8px) transparent;
+  background-image: linear-gradient(
+      87deg,
+      rgba(45, 49, 53, 1) 7.59%,
+      rgba(45, 49, 53, 1) 94.35%
+    ),
+    $linear-blue-gradiend;
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+  box-shadow: mvwDivide(-2px) mvwDivide(-2px) mvwDivide(4px)
+      rgba(74, 78, 83, 0.5),
+    mvwDivide(2px) mvwDivide(2px) mvwDivide(6px) rgba(35, 37, 39, 0.8) !important;
+  border-radius: 100%;
+}
+.new-pricing-slider-btn--line {
+  position: absolute;
+  height: mvwDivide(5px);
+  width: fit-content;
+  left: mvwDivide(2px);
+  top: mvwDivide(13px);
+  background: linear-gradient(
+    90.01deg,
+    #00e7f0 4.2%,
+    #006df0 52.11%,
+    rgba(0, 128, 255, 0.9) 100.03%
+  );
+}
+.new-pricing-slider-btn--inactive {
+  background: transparent;
+  box-shadow: 0 0 0;
+}
+.new-pricing-card__btn--active {
+  border: double mvwDivide(3px) transparent;
+  background-image: linear-gradient(
+      87deg,
+      rgba(45, 49, 53, 1) 7.59%,
+      rgba(45, 49, 53, 1) 94.35%
+    ),
+    $linear-blue-green-gradiend;
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+  box-shadow: inset mvwDivide(-2px) mvwDivide(-2px) mvwDivide(4px)
+      rgba(74, 78, 83, 0.5),
+    inset mvwDivide(2px) mvwDivide(2px) mvwDivide(6px) rgba(35, 37, 39, 0.8);
+  border-radius: mvwDivide(16px);
+}
+.pricing-card-div {
+  padding-top: mvwDivide(62px);
+  padding-bottom: mvwDivide(88px);
+}
+.new-pricing-select-cureency-text {
+  font-size: mvwDivide(14px);
+  line-height: mvwDivide(17px);
+  color: #e5e5e5;
+  @include fontSemiBold;
+  text-transform: capitalize;
+  padding-right: mvwDivide(23px);
+  padding-bottom: mvwDivide(8px);
+}

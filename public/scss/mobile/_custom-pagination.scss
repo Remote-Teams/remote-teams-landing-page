@@ -1,0 +1,106 @@
+/*=======================================================
+
+            custom pagination
+
+========================================================*/
+
+.custom-pagination {
+  padding-top: mvw(25px);
+  padding-bottom: mvw(25px);
+  width: 100%;
+
+  .rc-pagination {
+    width: 100%;
+    font-size: mvw(19px);
+    @include fontBold;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .rc-pagination-item:hover {
+    border-color: #ffffff;
+  }
+
+  .rc-pagination-item {
+    border-radius: mvw(4px);
+    padding: 0;
+    border: 0;
+    margin-right: mvw(8px);
+    min-width: mvw(32px);
+    height: mvw(32px);
+    font-size: mvw(14px);
+    line-height: mvw(32px);
+    color: #ffffff;
+    @include fontBold;
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+
+  .rc-pagination-item-active {
+    line-height: mvw(27px);
+    background: rgba(255, 255, 255, 0.2);
+    border: mvw(2px) solid #ffffff;
+    color: #ffffff;
+  }
+
+  .rc-pagination-item.rc-pagination-item-active:hover a {
+    color: #ffffff;
+  }
+
+  .rc-pagination-item:hover a {
+    color: #ffffff;
+  }
+
+  //   .rc-pagination-item:focus,
+  //   .rc-pagination-prev:focus,
+  //   .rc-pagination-next:focus,
+  //   .rc-pagination-jump-prev:focus,
+  //   .rc-pagination-jump-next:focus {
+  //     outline: #6266e1 auto mvw(2px);
+  //   }
+
+  .rc-pagination-prev,
+  .rc-pagination-next,
+  .rc-pagination-jump-prev,
+  .rc-pagination-jump-next {
+    border-radius: mvw(4px);
+    border: 0;
+    font-size: mvw(14px);
+    line-height: mvw(20px);
+    min-width: mvw(32px);
+    height: mvw(32px);
+    margin-right: mvw(8px);
+    background: rgba(255, 255, 255, 0.2);
+
+    color: #c4cdd5;
+  }
+
+  .rc-pagination-jump-prev:after,
+  .rc-pagination-jump-next:after,
+  .rc-pagination-prev a,
+  .rc-pagination-next a {
+    font-size: mvw(14px);
+    line-height: mvw(28px);
+  }
+
+  .rc-pagination-jump-prev:hover:after,
+  .rc-pagination-jump-next:hover:after {
+    color: #c4cdd5;
+  }
+
+  .rc-pagination-prev a,
+  .rc-pagination-next a {
+    font-size: mvw(34px);
+  }
+
+  .rc-pagination-prev a:after,
+  .rc-pagination-next a:after {
+    margin-top: 0;
+  }
+
+  .rc-pagination-disabled {
+    background: #919eab;
+    opacity: 0.5;
+  }
+}

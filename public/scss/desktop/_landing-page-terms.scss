@@ -1,0 +1,18 @@
+.terms-font-18 {
+  font-size: vw(18px);
+  line-height: vw(21.94px);
+  @include fontSemiBold;
+  color: rgba(255, 255, 255, 0.48);
+}
+.font-20 {
+  //font-size: vw(20px);
+  @include fontBold;
+  text-transform: uppercase;
+}
+.terms-ul {
+  //  padding-left: vw(10px);
+
+  li {
+    list-style-type: lower-roman;
+  }
+}

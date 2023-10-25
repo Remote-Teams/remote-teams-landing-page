@@ -1,0 +1,10 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://remote-teams-new.netlify.app/
+
+# Sitemaps
+Sitemap: https://remote-teams-new.netlify.app/sitemap.xml
+Sitemap: https://remote-teams-new.netlify.app/server-sitemap.xml

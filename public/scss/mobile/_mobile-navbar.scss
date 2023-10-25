@@ -1,0 +1,112 @@
+.mobile-logo-div {
+  width: mvw(44px);
+  height: mvw(44px);
+  cursor: pointer;
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+.mobile-navbar-outer-div {
+  padding: mvw(5px) mvw(20px) mvw(10px) mvw(39px);
+}
+////////////////////////////////////////////////////////////////////
+.bm-burger-button {
+  //padding-top: mvw(57px) !important;
+  //margin-right: mvw(16px) !important;
+
+  img,
+  button {
+    width: mvw(73px) !important;
+    height: mvw(73px) !important;
+  }
+
+  img {
+    float: right;
+  }
+  button {
+    left: unset !important;
+    right: mvw(0px) !important;
+    top: mvw(0px) !important;
+  }
+}
+
+.bm-menu-wrap {
+  width: mvw(150px) !important;
+  //background: pink !important;
+  background-size: cover !important;
+  background-position: bottom;
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+}
+
+.myOverlay {
+  //background: #000000 !important;
+  background-size: cover !important;
+  background-position: bottom;
+  width: mvw(180px) !important;
+  height: mvw(731px) !important;
+  right: mvw(0px);
+  top: 0;
+  background: $linear-black-gradiend !important;
+  box-shadow: mvw(-2px) mvw(-2px) mvw(4px) rgba(74, 78, 83, 0.5),
+    mvw(2px) mvw(2px) mvw(6px) rgba(35, 37, 39, 0.8),
+    mvw(8px) mvw(8px) mvw(30px) rgba(35, 37, 39, 0.9),
+    mvw(-6px) mvw(-6px) mvw(20px) rgba(74, 78, 83, 0.7);
+  border-radius: mvw(5px);
+}
+
+.menu-item {
+  cursor: pointer;
+  width: max-content;
+  text-align: center;
+  margin: 0;
+  margin-bottom: mvw(31px);
+  font-size: mvw(14px);
+  line-height: mvw(24px);
+  @include fontBold;
+  &:focus {
+    outline: 0;
+  }
+}
+
+.bm-item-list {
+  margin-top: mvw(85px);
+  //text-align: center;
+  overflow-y: hidden;
+  height: auto !important;
+}
+
+.bm-cross-button {
+  margin-top: mvw(20px) !important;
+  margin-right: mvw(25px) !important;
+  right: mvw(30px) !important;
+  width: fit-content !important;
+  height: auto !important;
+  h1 {
+    font-size: mvw(10px);
+    line-height: mvw(17px);
+    color: rgba(229, 229, 229, 0.4);
+    @include fontBold;
+    padding-left: mvw(10px);
+  }
+}
+
+/*.web-nav-logo-mobile {
+  width: mvw(164px);
+  height: auto;
+  position: absolute;
+  top: mvw(20px);
+  left: mvw(14px);
+}
+*/
+.mobile-nav-icon {
+  width: mvw(42px);
+  height: mvw(43px);
+}
+.arrow-img {
+  width: mvw(33px);
+  height: auto;
+}

@@ -1,0 +1,26 @@
+@import "../public/scss/global";
+@import "../public/scss/function";
+@import "../public/scss/mixins";
+@import "../public/scss/typography";
+@import "../public/scss/variables";
+
+.pt-400 {
+  padding-top: vw(400px) !important;
+}
+/*========================================
+             desktop
+===========================================*/
+@media screen and (min-width: 768px) {
+  @import "../public/scss/desktop/index";
+}
+
+/*========================================
+             Mobile
+===========================================*/
+@media screen and (max-width: 767px) {
+  @import "../public/scss/mobile/index";
+
+  .customModal {
+    display: none !important;
+  }
+}

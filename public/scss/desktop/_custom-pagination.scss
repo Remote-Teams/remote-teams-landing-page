@@ -1,0 +1,105 @@
+/*=======================================================
+
+            custom pagination
+
+========================================================*/
+
+.custom-pagination {
+  padding-bottom: vw(120px);
+  width: 100%;
+
+  .rc-pagination {
+    width: 100%;
+    font-size: vw(19px);
+    @include fontBold;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .rc-pagination-item:hover {
+    border-color: #ffffff;
+  }
+
+  .rc-pagination-item {
+    border-radius: vw(4px);
+    padding: 0;
+    border: 0;
+    margin-right: vw(10px);
+    min-width: vw(40px);
+    height: vw(40px);
+    font-size: vw(14px);
+    line-height: vw(41px);
+    color: #ffffff;
+    @include fontBold;
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+
+  .rc-pagination-item-active {
+    line-height: vw(39px);
+    background: rgba(255, 255, 255, 0.2);
+    border: vw(2px) solid #ffffff;
+    color: #ffffff;
+  }
+
+  .rc-pagination-item.rc-pagination-item-active:hover a {
+    color: #ffffff;
+  }
+
+  .rc-pagination-item:hover a {
+    color: #ffffff;
+  }
+
+  //   .rc-pagination-item:focus,
+  //   .rc-pagination-prev:focus,
+  //   .rc-pagination-next:focus,
+  //   .rc-pagination-jump-prev:focus,
+  //   .rc-pagination-jump-next:focus {
+  //     outline: #6266e1 auto vw(2px);
+  //   }
+
+  .rc-pagination-prev,
+  .rc-pagination-next,
+  .rc-pagination-jump-prev,
+  .rc-pagination-jump-next {
+    border-radius: vw(4px);
+    border: 0;
+    font-size: vw(14px);
+    line-height: vw(20px);
+    min-width: vw(40px);
+    height: vw(40px);
+    margin-right: vw(10px);
+    background: rgba(255, 255, 255, 0.2);
+
+    color: #c4cdd5;
+  }
+
+  .rc-pagination-jump-prev:after,
+  .rc-pagination-jump-next:after,
+  .rc-pagination-prev a,
+  .rc-pagination-next a {
+    font-size: vw(14px);
+    line-height: vw(38px);
+  }
+
+  .rc-pagination-jump-prev:hover:after,
+  .rc-pagination-jump-next:hover:after {
+    color: #c4cdd5;
+  }
+
+  .rc-pagination-prev a,
+  .rc-pagination-next a {
+    font-size: vw(34px);
+  }
+
+  .rc-pagination-prev a:after,
+  .rc-pagination-next a:after {
+    margin-top: 0;
+  }
+
+  .rc-pagination-disabled {
+    background: #919eab;
+    opacity: 0.5;
+  }
+}

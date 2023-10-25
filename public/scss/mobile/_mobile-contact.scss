@@ -1,0 +1,76 @@
+.ml--10 {
+  margin-left: mvw(-10px);
+  letter-spacing: 0;
+}
+.mobile-contact-input {
+  //position: relative;
+  label {
+    font-size: mvw(14px);
+    line-height: mvw(17px);
+    color: rgba(229, 229, 229, 0.28);
+    @include fontBold;
+    text-transform: uppercase;
+  }
+  .mobile-input {
+    width: 100%;
+    height: mvw(38px);
+    position: relative;
+    textarea,
+    input {
+      width: 100%;
+      height: 100%;
+      background: transparent;
+      border: none;
+      padding: 0 mvw(10px);
+      font-size: mvw(11px);
+      line-height: mvw(13px);
+      color: #ffffff;
+      @include fontSemiBold;
+
+      &::placeholder {
+        font-size: mvw(11px);
+        line-height: mvw(13px);
+        color: #ffffff;
+        @include fontMedium;
+      }
+    }
+    &::after {
+      position: absolute;
+      content: "";
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      height: mvw(3px);
+      background: linear-gradient(
+        90.01deg,
+        #00e7f0 4.2%,
+        #006df0 52.11%,
+        rgba(0, 128, 255, 0) 100.03%
+      );
+      box-shadow: inset mvw(-2px) mvw(-2px) mvw(4px) rgba(74, 78, 83, 0.5),
+        inset mvw(2px) mvw(2px) mvw(6px) rgba(35, 37, 39, 0.8);
+      border-radius: mvw(16px);
+    }
+  }
+}
+.mobile-input-textarea {
+  height: mvw(108px) !important;
+  textarea {
+    background: #2d3135;
+    box-shadow: inset mvw(-2px) mvw(-2px) mvw(4px) rgba(74, 78, 83, 0.5),
+      inset mvw(2px) mvw(2px) mvw(6px) rgba(35, 37, 39, 0.8);
+    border-radius: 7px;
+    padding-top: mvw(10px) !important;
+    padding-bottom: mvw(10px) !important;
+  }
+}
+.mobile-gradient-btn--contact {
+  width: mvw(154px);
+  font-size: mvw(14px);
+  line-height: mvw(17px);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #000000;
+  margin-top: mvw(33px);
+  @include fontBold;
+}

@@ -1,0 +1,100 @@
+.home-new-fold2-title {
+  font-size: vw1(54px);
+  line-height: vw1(66px);
+  @include fontExtraBold;
+  width: fit-content;
+  background: linear-gradient(90deg, #a3bded 0%, #6991c7 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+}
+.home-new-fold2-card {
+  width: vw1(105px);
+  height: vw1(108px);
+  background: linear-gradient(321.7deg, #2d3135 24.16%, #35393e 72.5%);
+  box-shadow: vw1(-2px) vw1(-2px) vw1(4px) rgba(74, 78, 83, 0.5),
+    vw1(2px) vw1(2px) vw1(6px) rgba(35, 37, 39, 0.8),
+    vw1(8px) vw1(8px) vw1(30px) rgba(35, 37, 39, 0.9),
+    vw1(-6px) vw1(-6px) vw1(20px) rgba(74, 78, 83, 0.7);
+  border-radius: vw1(5px);
+  padding: vw1(5px) vw1(10px) vw1(13px) vw1(10px);
+  margin-right: vw1(21px);
+  margin-bottom: vw1(32px);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-end;
+
+  img {
+    width: vw1(35px);
+    height: auto;
+    margin-bottom: vw1(15px);
+  }
+}
+
+.home-new-rws2 {
+  img {
+    width: vw1(43px);
+  }
+}
+.home-new-fold2-card-text {
+  font-size: vw1(10px);
+  line-height: vw1(14px);
+  @include fontNunitoBold;
+  margin-bottom: 0;
+  color: #ffffff;
+}
+.home-new-fold2-text1 {
+  font-size: vw1(48px);
+  line-height: vw1(45px);
+  @include fontExtraBold;
+  margin-bottom: 0;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+  text-align: center;
+}
+.home-new-fold2-row {
+  padding-top: vw1(76px);
+  position: relative;
+  z-index: 2;
+}
+.home-new-fold2-row__card-colm1 {
+  width: vw1(584px);
+  padding-top: vw1(56px);
+}
+.home-new-fold2-row__card-colm2 {
+  padding-top: vw1(49px);
+  flex-grow: 1;
+}
+.home-new-fold2-row__card-colm1-row,
+.home-new-fold2-row__card-colm2-row {
+  width: vw1(380px);
+}
+.home-new-fold2-text2 {
+  font-size: vw1(72px);
+  line-height: vw1(109px);
+  @include fontSemiBold;
+  width: fit-content;
+  background: linear-gradient(90deg, #a3bded 0%, #6991c7 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: vw1(197px);
+  position: absolute;
+  left: 47%;
+}
+.home-new-fold2-afterBlock {
+  position: relative;
+  &::after {
+    content: "";
+    width: 50%;
+    height: vw1(897px);
+    position: absolute;
+    right: 0;
+    background: linear-gradient(180deg, #35393e 0%, #2f3337 100%);
+    display: block;
+    top: vw1(142px);
+  }
+}

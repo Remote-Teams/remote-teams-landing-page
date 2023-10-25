@@ -1,0 +1,77 @@
+//-------mixins-----------//
+//=======montserrat------//
+@mixin fontRegular {
+  font-family: Montserrat-Regular, sans-serif, "Helvetica";
+  font-weight: 400;
+}
+@mixin fontMedium {
+  font-family: Montserrat-Medium, sans-serif, "Helvetica";
+  font-weight: 500;
+}
+@mixin fontSemiBold {
+  font-family: Montserrat-SemiBold, sans-serif, "Helvetica";
+  font-weight: 600;
+}
+@mixin fontBold {
+  font-family: Montserrat-Bold, sans-serif, "Helvetica";
+  font-weight: 700;
+}
+@mixin fontExtraBold {
+  font-family: Montserrat-ExtraBold, sans-serif, "Helvetica";
+  font-weight: 800;
+}
+@mixin fontBlack {
+  font-family: Montserrat-Black, sans-serif, "Helvetica";
+  font-weight: 900;
+}
+//=======Kollektif------//
+@mixin fontKollektif {
+  font-family: Kollektif, sans-serif, "Helvetica";
+}
+//=======Poppins------//
+@mixin fontPoppinsSemiBold {
+  font-family: Poppins-SemiBold, sans-serif, "Helvetica";
+  font-weight: 600;
+}
+
+//====OpenSans-Regular====//
+@mixin fontOpenSansRegular {
+  font-family: OpenSans-Regular, sans-serif, "Helvetica";
+  font-weight: 400;
+}
+
+//====Nunito====//
+@mixin fontNunitoRegular {
+  font-family: Nunito-Regular, sans-serif, "Helvetica";
+  font-weight: 400;
+}
+@mixin fontNunitoBold {
+  font-family: Nunito-Bold, sans-serif, "Helvetica";
+  font-weight: 700;
+}
+@mixin fontNunitoExtraBold {
+  font-family: Nunito-ExtraBold, sans-serif, "Helvetica";
+  font-weight: 800;
+}
+
+//====Nunito====//
+@mixin fontProximaNovaBold {
+  font-family: Proxima Nova, sans-serif, "Helvetica";
+  font-weight: 700;
+}
+
+@mixin fontProximaNovaExtraBold {
+  font-family: Proxima Nova, sans-serif, "Helvetica";
+  font-weight: 800;
+}
+
+//=========bg color==========//
+@mixin gradientBlueBg {
+  background: rgb(0, 231, 240);
+  background: linear-gradient(
+    90.01deg,
+    rgba(0, 231, 240, 1) 4.2%,
+    rgba(0, 109, 240, 1) 52.11%,
+    rgba(0, 128, 255, 0.9) 100.03%
+  );
+}

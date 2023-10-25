@@ -1,0 +1,79 @@
+.mobile-page-title {
+  width: fit-content;
+  font-size: mvw(36px);
+  @include fontExtraBold;
+  line-height: mvw(51px);
+  letter-spacing: 0.01em;
+  text-align: left;
+  background: linear-gradient(90deg, #5ee7df 0%, #b490ca 100%);
+  background-clip: text;
+  //-webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/*-------------------------------------------------------
+
+                        padding
+
+-------------------------------------------------------*/
+.pt-34 {
+  padding-top: mvw(34px);
+}
+.pl-30 {
+  padding-left: mvw(30px);
+}
+.pt-22 {
+  padding-top: mvw(22px);
+}
+.pt-60 {
+  padding-top: mvw(60px);
+}
+.pr-10 {
+  padding-right: mvw(10px);
+}
+.pl-39 {
+  padding-left: mvw(39px);
+}
+.pl-20 {
+  padding-left: mvw(20px);
+}
+.pr-28 {
+  padding-right: mvw(30px);
+}
+.pr-60 {
+  padding-right: mvw(60px);
+}
+.pb-50 {
+  padding-bottom: mvw(50px);
+}
+/*-------------------------------------------------------
+
+                    margin
+
+-------------------------------------------------------*/
+.ml-10 {
+  margin-left: mvw(10px);
+}
+.ml-20 {
+  margin-left: mvw(20px);
+}
+.ml-50 {
+  margin-left: mvw(50px);
+}
+.mt-24 {
+  margin-top: mvw(24px);
+}
+.mt-30 {
+  margin-top: mvw(30px);
+}
+.mb-68 {
+  margin-bottom: mvw(68px);
+}
+.mb-50 {
+  margin-bottom: mvw(50px);
+}
+.mt-15 {
+  margin-top: mvw(15px);
+}
+.mt-29 {
+  margin-top: mvw(29px);
+}
