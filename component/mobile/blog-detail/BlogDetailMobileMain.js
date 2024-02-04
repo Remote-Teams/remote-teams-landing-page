@@ -7,7 +7,7 @@ import BlogDetailsFooterSocialMedia from "../../common/BlogDetailsFooterSocialMe
 import BlogMainAuthorBlock from "../../desktop/blog/BlogMainAuthorBlock";
 
 export default function BlogDetailMobileMain({
-  blogDetail,
+  blogDetails,
   latestBlog,
   recommendedBlogs,
 }) {
@@ -23,7 +23,7 @@ export default function BlogDetailMobileMain({
           <Link href="/blog">
             <a className="blog-details-social-media-block__text blog-go-back">
               <img
-                src="./img/desktop/blog-detail/left-arrow.svg"
+                src="/img/desktop/blog-detail/left-arrow.svg"
                 alt="left arrow"
               />
               BACK TO BLOGS
@@ -33,49 +33,47 @@ export default function BlogDetailMobileMain({
             <div className="blog-fold-2-img-block">
               <img
                 // src="/img/desktop/blog/blog-fold2-img.svg"
-                src={blogDetail.featured_image[0].url}
-                alt={blogDetail.featured_image[0].alternativeText}
+                src={blogDetails.imgUrl}
+                // alt={blogDetails.featured_image[0].alternativeText}
               />
             </div>
             <div className="mobile-blog-detail-fold-1-text-content">
               <div className="blog-fold-1-tags-block row mx-0 align-items-center">
-                {!isEmpty(blogDetail.tag1) && (
+                {!isEmpty(blogDetails.tag1) && (
                   <div className="new-blog-technology-div">
-                    <span>{blogDetail.tag1}</span>
+                    <span>{blogDetails.tag1}</span>
                   </div>
                 )}
-                {!isEmpty(blogDetail.tag2) && (
+                {!isEmpty(blogDetails.tag2) && (
                   <div className="new-blog-technology-div">
-                    <span>{blogDetail.tag2}</span>
+                    <span>{blogDetails.tag2}</span>
                   </div>
                 )}
               </div>
               <div className={"blog-fold-2__colm1-blog-content"}>
                 <h2 className="blog-title-1 blog-title-1--blogDetail">
                   {/* YouTube Previews Upcoming Improvements for YouTube Studio */}
-                  {blogDetail.title}
+                  {blogDetails.title}
                 </h2>
 
                 <BlogMainAuthorBlock
-                  displayImage={isEmpty(blogDetail.author_image) ? false : true}
+                  displayImage={isEmpty(blogDetails.authorImg) ? false : true}
                   authorImg={
-                    !isEmpty(blogDetail.author_image)
-                      ? blogDetail.author_image.url
-                      : ""
+                    !isEmpty(blogDetails.authorImg) ? blogDetails.authorImg : ""
                   }
-                  authorName={blogDetail.author}
-                  blogUpatedAt={blogDetail.updatedAt}
+                  authorName={blogDetails.author}
+                  blogUpatedAt={blogDetails.datePosted}
                 />
               </div>
             </div>
           </div>
         </div>
         <div className="blog-detail-content-desc">
-          <ReactMarkdown source={blogDetail.article_body} escapeHtml={false} />
+          <ReactMarkdown source={blogDetails.description} escapeHtml={false} />
         </div>
-        <BlogDetailsFooterSocialMedia blogSlug={blogDetail.slug} />
+        {/* <BlogDetailsFooterSocialMedia blogSlug={blogDetails.slug} /> */}
 
-        {!isEmpty(recommendedBlogs) || !isEmpty(latestBlog) ? (
+        {/* {!isEmpty(recommendedBlogs) || !isEmpty(latestBlog) ? (
           <div className="blog-detail-suggest-blog-row row mx-0 flex-nowrap align-items-stretch">
             {!isEmpty(recommendedBlogs) && (
               <div
@@ -88,17 +86,7 @@ export default function BlogDetailMobileMain({
                 <h3 className="blog-details-social-media-block__text">
                   recommended post
                 </h3>
-                {/* {recommendedBlogs.map((data, index) => (
-                  <Fragment key={index}>
-                    <Link as={`/blog/${data.slug}`} href="/blog/[id]">
-                      <a>
-                        <h4 className="blog-detail-suggest-blog-row__blogTitle">                          
-                          {data.title}
-                        </h4>
-                      </a>
-                    </Link>
-                  </Fragment>
-                ))} */}
+               
                 <Link
                   as={`/blog/${recommendedBlogs[0].slug}`}
                   href="/blog/[id]"
@@ -125,7 +113,7 @@ export default function BlogDetailMobileMain({
                 <Link as={`/blog/${latestBlog.slug}`} href="/blog/[id]">
                   <a>
                     <h4 className="blog-detail-suggest-blog-row__blogTitle">
-                      {/* YouTube Previews Upcoming Improvements for YouTube Studio */}
+                      
                       {latestBlog.title}
                     </h4>
                   </a>
@@ -135,7 +123,7 @@ export default function BlogDetailMobileMain({
           </div>
         ) : (
           ""
-        )}
+        )} */}
       </article>
     </>
   );

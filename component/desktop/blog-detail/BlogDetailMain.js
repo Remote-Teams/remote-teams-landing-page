@@ -7,8 +7,48 @@ import BlogDetailsFooterSocialMedia from "../../common/BlogDetailsFooterSocialMe
 import BlogMainAuthorBlock from "../blog/BlogMainAuthorBlock";
 import LandingPageFooter from "../LandingPageFooter";
 
+let markDonw = `
+# Exploring the Wonders of DynamoDB: A Comprehensive Guide
+
+## Overview
+
+Dive into the world of Amazon DynamoDB, a fully managed NoSQL database service that powers some of the most scalable and performant applications. In this comprehensive guide, we'll explore the key features, use cases, and best practices for leveraging DynamoDB in your projects.
+
+## Key Topics Covered
+
+- **Introduction to DynamoDB:**
+  - Understand the fundamentals and architecture of DynamoDB.
+
+- **Scalability and Performance:**
+  - Learn how DynamoDB ensures consistent, low-latency performance at any scale.
+
+- **Security Measures:**
+  - Explore built-in security features, encryption options, and access control mechanisms.
+
+- **Global Tables:**
+  - Discover the power of multi-region replication for enhanced availability.
+
+- **Use Cases:**
+  - Explore real-world use cases, including web and mobile applications, gaming, IoT, and more.
+
+- **Advanced Features:**
+  - Delve into features like DynamoDB Accelerator (DAX) and DynamoDB Streams.
+
+## Who Should Read?
+
+This guide is perfect for developers, architects, and anyone interested in understanding and maximizing the potential of Amazon DynamoDB. Whether you're new to NoSQL databases or a seasoned pro, there's something here for everyone.
+
+## Why DynamoDB?
+
+Find out why DynamoDB is a popular choice for developers and businesses worldwide. From its serverless options to seamless scalability, DynamoDB offers a robust solution for diverse application needs.
+
+Ready to embark on a journey through the intricacies of DynamoDB? Let's get started!
+
+
+`;
+
 export default function BlogDetailMain({
-  blogDetail,
+  blogDetails,
   latestBlog,
   recommendedBlogs,
 }) {
@@ -25,7 +65,7 @@ export default function BlogDetailMain({
           <Link href="/blog">
             <a className="blog-details-social-media-block__text blog-go-back">
               <img
-                src="./img/desktop/blog-detail/left-arrow.svg"
+                src="/img/desktop/blog-detail/left-arrow.svg"
                 alt="left arrow"
               />
               BACK TO BLOGS
@@ -33,47 +73,43 @@ export default function BlogDetailMain({
           </Link>
           <div className="blog-fold-1__colm1">
             <div className="blog-fold-1-tags-block row mx-0 align-items-center">
-              {!isEmpty(blogDetail.tag1) && (
+              {!isEmpty(blogDetails.tag1) && (
                 <div className="new-blog-technology-div">
-                  <span>{blogDetail.tag1}</span>
+                  <span>{blogDetails.tag1}</span>
                 </div>
               )}
-              {!isEmpty(blogDetail.tag2) && (
+              {!isEmpty(blogDetails.tag2) && (
                 <div className="new-blog-technology-div">
-                  <span>{blogDetail.tag2}</span>
+                  <span>{blogDetails.tag1}</span>
                 </div>
               )}
             </div>
             <img
               // src="/img/desktop/blog/blog-fold1-img.png"
-              src={blogDetail.featured_image[0].url}
-              alt={blogDetail.featured_image[0].alternativeText}
+              src={`${blogDetails.imgUrl}`}
+              // alt={blogDetail.featured_image[0].alternativeText}
               className="blog-fold-1-img"
             />
-            <h2 className="blog-title-1">{blogDetail.title}</h2>
+            <h2 className="blog-title-1">{blogDetails.title}</h2>
             <p className="blog-desc-text">
-              <i>{blogDetail.description}</i>
+              <i>{blogDetails.shortDescription}</i>
             </p>
             <BlogMainAuthorBlock
-              displayImage={
-                !isEmpty(blogDetail.author_image.url) ? true : false
-              }
+              displayImage={!isEmpty(blogDetails.authorImg) ? true : false}
               authorImg={
-                !isEmpty(blogDetail.author_image)
-                  ? blogDetail.author_image.url
-                  : ""
+                !isEmpty(blogDetails.authorImg) ? blogDetails.authorImg : ""
               }
-              authorName={blogDetail.author}
-              blogUpatedAt={blogDetail.updatedAt}
+              authorName={blogDetails.author}
+              blogUpatedAt={blogDetails.datePosted}
             />
           </div>
         </div>
         <div className="blog-detail-content-desc">
-          <ReactMarkdown source={blogDetail.article_body} escapeHtml={false} />
+          <ReactMarkdown source={blogDetails.description} escapeHtml={false} />
         </div>
-        <BlogDetailsFooterSocialMedia blogSlug={blogDetail.slug} />
+        {/* <BlogDetailsFooterSocialMedia blogSlug={blogDetail.slug} /> */}
 
-        {!isEmpty(recommendedBlogs) || !isEmpty(latestBlog) ? (
+        {/* {!isEmpty(recommendedBlogs) || !isEmpty(latestBlog) ? (
           <div className="blog-detail-suggest-blog-row row mx-0 flex-nowrap align-items-stretch">
             {!isEmpty(recommendedBlogs) && (
               <div
@@ -86,17 +122,7 @@ export default function BlogDetailMain({
                 <h3 className="blog-details-social-media-block__text">
                   recommended post
                 </h3>
-                {/* {recommendedBlogs.map((data, index) => (
-                  <Fragment key={index}>
-                    <Link as={`/blog/${data.slug}`} href="/blog/[id]">
-                      <a>
-                        <h4 className="blog-detail-suggest-blog-row__blogTitle">
-                          {data.title}
-                        </h4>
-                      </a>
-                    </Link>
-                  </Fragment>
-                ))} */}
+                
                 <Link
                   as={`/blog/${recommendedBlogs[0].slug}`}
                   href="/blog/[id]"
@@ -123,8 +149,8 @@ export default function BlogDetailMain({
                 <Link as={`/blog/${latestBlog.slug}`} href="/blog/[id]">
                   <a>
                     <h4 className="blog-detail-suggest-blog-row__blogTitle">
-                      {/* YouTube Previews Upcoming Improvements for YouTube Studio */}
-                      {latestBlog.title}
+                      YouTube Previews Upcoming Improvements for YouTube Studio
+                     
                     </h4>
                   </a>
                 </Link>
@@ -133,7 +159,7 @@ export default function BlogDetailMain({
           </div>
         ) : (
           ""
-        )}
+        )} */}
       </article>
       <div className="blog-detail-footer-block">
         <LandingPageFooter />
